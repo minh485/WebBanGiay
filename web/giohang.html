@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Giỏ Hàng - Shop Giày</title>
+    <link rel="stylesheet" href="../style/header-footer.css" />
+    <link rel="stylesheet" href="../style/giohang.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="header-logo">👟 Shop Giày</a>
+        <nav class="header-nav">
+          <a href="index.html">Trang Chủ</a>
+          <a href="menu.html">Sản Phẩm</a>
+          <a href="giohang.html" class="active">Giỏ Hàng</a>
+        </nav>
+        <div class="header-auth">
+          <a href="danhnhap.html" class="btn-login">Đăng Nhập</a>
+          <a href="dangki.html" class="btn-register">Đăng Kí</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="cart-container">
+      <!-- Page Title -->
+      <div class="cart-header">
+        <h1 class="cart-title">Giỏ Hàng của bạn</h1>
+        <a href="#" class="clear-cart">xóa toàn bộ</a>
+      </div>
+
+      <!-- Main Cart Layout -->
+      <div class="cart-wrapper">
+        <!-- LEFT SIDE: PRODUCT LIST -->
+        <div class="cart-items">
+          <!-- Product Item 1 -->
+          <div class="cart-item">
+            <img src="../image/Rectangle 567.png" alt="Nike" class="item-image" />
+
+            <div class="item-info">
+              <h3 class="item-name">Nike</h3>
+              <p class="item-detail">Thương hiệu: N/A</p>
+              <p class="item-detail">Giày nam vip</p>
+              <p class="item-original-price">3.200.200</p>
+            </div>
+
+            <div class="item-quantity">
+              <button class="qty-btn">-</button>
+              <input type="number" class="qty-input" value="1" readonly />
+              <button class="qty-btn">+</button>
+            </div>
+
+            <div class="item-price">3.200.200 đ</div>
+
+            <button class="item-delete">Xóa</button>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE: ORDER SUMMARY -->
+        <div class="order-summary">
+          <h2 class="summary-title">Tóm tắt đơn hàng</h2>
+
+          <!-- Summary Items -->
+          <div class="summary-row">
+            <span>Tạm tính (1 sản phẩm):</span>
+            <span class="summary-value">3,200.00đ</span>
+          </div>
+
+          <div class="summary-row">
+            <span>Phí vận chuyển:</span>
+            <span class="summary-value free-shipping">Miễn phí</span>
+          </div>
+
+          <!-- Total -->
+          <div class="summary-total">
+            <span>Tổng Cộng</span>
+            <span class="total-amount">3,200.200đ</span>
+          </div>
+
+          <!-- Checkout Button -->
+          <button class="checkout-btn">Tiến hành thanh toán</button>
+
+          <!-- Continue Shopping Link -->
+          <a href="index.html" class="continue-shopping">tiếp tục mua sắm</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-brand">👟 Shop Giày</p>
+          <p class="footer-desc">Chuyên cung cấp giày chính hãng chất lượng cao với giá cả phải chăng. Mua sắm dễ dàng, giao hàng nhanh chóng.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Liên kết nhanh</h4>
+          <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="menu.html">Sản Phẩm</a></li>
+            <li><a href="giohang.html">Giỏ Hàng</a></li>
+            <li><a href="chitietsanpham.html">Chi Tiết SP</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Tài khoản</h4>
+          <ul>
+            <li><a href="danhnhap.html">Đăng Nhập</a></li>
+            <li><a href="dangki.html">Đăng Kí</a></li>
+            <li><a href="thanhtoan.html">Thanh Toán</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact">
+          <h4>Liên hệ</h4>
+          <p>📧 shopgiay@email.com</p>
+          <p>📞 0987 654 321</p>
+          <p>📍 123 Đường ABC, TP.HCM</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Shop Giày. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
